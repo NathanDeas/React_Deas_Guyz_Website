@@ -1,0 +1,33 @@
+iframe{
+    filter: invert(.9) saturate(0.8) hue-rotate(10deg);
+}
+.calendar {
+    height: 80vh;
+
+}
+.calender_footer {
+    width: 100%;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.calender_footer .res_note {
+    width: 50%;
+    font-size: 1.5vw;
+}
+.calender_footer .club_contacts {
+    text-align: center;
+    width: 50%;
+     
+
+}
+.club_contacts ul li {
+    margin: 10px;
+}
+
+
+
+

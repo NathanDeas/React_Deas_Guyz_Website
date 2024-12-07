@@ -1,0 +1,73 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;    
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #111111;
+    color: white;
+}
+.deas-guyz-logo {
+    background-image: url(./Images/DGLogo.png);
+    background-size: contain;
+    width: 7vh;
+    height: 7vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    left: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    animation: cd-spin 10s infinite linear;
+}
+.deas-guyz-logo:hover {
+    cursor: pointer;
+    animation-play-state: paused;
+}
+a {
+    text-decoration:  none;
+}
+a:visited {
+    color: inherit;
+}
+@keyframes cd-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.nav_buttons ul {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    width: fit-content;
+    justify-content: center;
+}
+.nav_buttons li {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-position: -50%;
+}
+.nav_buttons li:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 0 0 white;
+}
+.nav_buttons .active {
+    box-shadow: 0 2px 0 0 white;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;;
+}
+
