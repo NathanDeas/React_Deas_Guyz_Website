@@ -1,12 +1,49 @@
-#fast {grid-area: fast;}
-#medium {grid-area: med;}
-#slow {grid-area: slow;}
-#raggae {grid-area: raggae;}
-#jazz {grid-area: jazz;}
-#fats {grid-area: fats;}
+#fast {
+    grid-area: fast;
+    background-image: url(Images/TheTemptations.jpg);
+    background-repeat: no-repeat;
+    background-position: -150px 5vw;
+    background-size: cover;
+}
+#medium {
+    grid-area: med;
+    background-image: url(Images/luther.jpg);
+    background-repeat: no-repeat;
+    background-position: -150px 5vw;
+    background-size: cover;
+}
+#slow {
+    grid-area: slow;
+    background-image: url(Images/billW.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 5vw;
+    background-size: cover;
+}
+#raggae {
+    grid-area: raggae;
+    background-image: url(Images/raggae.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 5vw;
+    background-size: cover;
+}
+#jazz_instramentals {
+    grid-area: jazz;
+    background-image: url(Images/MilesD.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 5vw;
+    background-size: cover;
+}
+#fats_domino_show {
+    grid-area: fats;
+    background-image: url(Images/FatsD.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 5vw;
+    background-size: cover;
+
+}
 .songlist_container {
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 50px;
+    row-gap: 100px;
     padding: 50px;
     color: white;
     display: grid;
@@ -22,6 +59,16 @@
 .songlist_container section {
     border-radius: 30px;
     padding-bottom: 20px;
+    box-shadow: 0px 3px 0px 3px white;
+    transition: .5s;
+}
+.songlist_container section:hover {
+    box-shadow: 0px 3px 0px 6px white;
+    transition: .5s;
+}
+.songlist_container section h1 {
+    font-size: 3vw;
+    margin-top: 10px;
 }
 
 .songlist_container ul {
@@ -36,4 +83,10 @@
 .songlist_container li {
     width: 30%;
     font-size: 20px;
+    font-weight:bolder;
+    color: white;    
+    font-size: 1.5vw;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 1, 0.252);
 }
