@@ -2,6 +2,7 @@ iframe{
     filter: invert(.9) saturate(0.8) hue-rotate(10deg);
 }
 .calendar {
+    margin-top: 20px;
     height: 80vh;
 
 }
@@ -9,20 +10,19 @@ iframe{
     width: 100%;
     color: white;
     display: flex;
-    gap: 20px;
-    align-items: center;
+    gap: 100px;
     justify-content: center;
     height: fit-content;
+    padding-top: 20px;
 }
 .calender_footer .res_note {
-    width: 50%;
+    width: 700px;
     font-size: 1.5vw;
 }
 .calender_footer .club_contacts {
-    text-align: center;
-    width: 50%;
-     
-
+    text-align: left;
+    width: fit-content;
+    font-size: 1vw;
 }
 .club_contacts ul li {
     margin: 10px;

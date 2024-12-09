@@ -7,7 +7,7 @@ function Calendar() {
             <section className="calendar">
                 <iframe src="https://calendar.google.com/calendar/embed?wkst=1&ctz=America%2FNew_York&showPrint=0&src=ZGd3Y2FsZW5kZXJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679" 
                 style={{ border: 0 }}
-                width="100%"
+                width="90%"
                 height="100%"
                 title="Deas Guyz Calendar"
                 />

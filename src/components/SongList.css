@@ -2,7 +2,7 @@
     grid-area: fast;
     background-image: url(Images/TheTemptations.jpg);
     background-repeat: no-repeat;
-    background-position: -150px 5vw;
+    background-position: -350px 5vw;
     background-size: cover;
 }
 #medium {
@@ -61,9 +61,11 @@
     padding-bottom: 20px;
     box-shadow: 0px 3px 0px 3px white;
     transition: .5s;
+    background-color: rgba(2, 2, 2, 0.709);
+    background-blend-mode:darken;
 }
 .songlist_container section:hover {
-    box-shadow: 0px 3px 0px 6px white;
+    box-shadow: 0px 3px 0px 8px white;
     transition: .5s;
 }
 .songlist_container section h1 {
@@ -84,9 +86,13 @@
     width: 30%;
     font-size: 20px;
     font-weight:bolder;
-    color: white;    
+    color: #ffffff;    
     font-size: 1.5vw;
     border-radius: 10px;
     padding: 5px;
-    background-color: rgba(0, 0, 1, 0.252);
+}
+.songlist_container li:hover {
+    transition: .5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
