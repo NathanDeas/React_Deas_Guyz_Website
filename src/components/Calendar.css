@@ -10,19 +10,26 @@ iframe{
     width: 100%;
     color: white;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 100px;
-    justify-content: center;
+    justify-content:space-evenly;
     height: fit-content;
     padding-top: 20px;
 }
 .calender_footer .res_note {
     width: 700px;
-    font-size: 1.5vw;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .calender_footer .club_contacts {
-    text-align: left;
+    text-align: center;
     width: fit-content;
-    font-size: 1vw;
+    font-size: 1.5em;
+    min-width: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .club_contacts ul li {
     margin: 10px;

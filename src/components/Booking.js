@@ -27,18 +27,30 @@ function Booking() {
             <div className='booking_form'>
                 <form ref={form} onSubmit={sendEmail}>
                     <h1>Book The Band</h1>
-                    <label>Name *</label>
-                    <input type="text" name="from_name" required/>
-                    <label>Email *</label>
-                    <input type="email" name="from_email" required/>
-                    <label>Type of Function *</label>
-                    <input type="text" name="function_type"  required/>
-                    <label>Date(s) *</label>
-                    <input type="text" name="date" required/>
-                    <label>Location *</label>
-                    <input type="text" name="location" required/>
-                    <label>Message</label>
-                    <textarea name="message" />
+                    <div id="i_name">
+                      <label>Name </label>
+                      <input type="text" name="from_name" required/>
+                    </div>
+                    <div id="i_email">
+                      <label>Email </label>
+                      <input type="email" name="from_email" required/>
+                    </div>
+                    <div id="i_TOF">
+                      <label>Type of Function </label>
+                      <input type="text" name="function_type"  required/>
+                    </div>
+                    <div id="i_dates">
+                      <label>Date(s) </label>
+                      <input type="text" name="date" required/>
+                    </div>
+                    <div id="i_loc">
+                      <label>Location </label>
+                      <input type="text" name="location" required/>
+                    </div>
+                    <div id="i_mess">
+                      <label>Message</label>
+                      <textarea name="message" />
+                    </div>
                     <input type="submit" value="Send" />
                 </form>
             </div>

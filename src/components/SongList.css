@@ -42,9 +42,9 @@
 
 }
 .songlist_container {
-    column-gap: 50px;
-    row-gap: 100px;
-    padding: 50px;
+    column-gap: 5vw;
+    row-gap: 5vw;
+    padding: 5vw;
     color: white;
     display: grid;
     grid-template-columns: auto;
