@@ -26,7 +26,7 @@ function Booking() {
         <div className='parent_container'>
             <div className='booking_form'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <h1>Book The Band</h1>
+                <p>We will get back in touch with you as soon as possible.  We appreciate your interest and your support!</p>
                     <div id="i_name">
                       <label>Name </label>
                       <input type="text" name="from_name" required/>
@@ -51,7 +51,8 @@ function Booking() {
                       <label>Message</label>
                       <textarea name="message" />
                     </div>
-                    <input type="submit" value="Send" />
+                    <input id="send_email" type="submit" value="Send" />
+                    <br />
                 </form>
             </div>
         </div>

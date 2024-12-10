@@ -2,42 +2,41 @@
     grid-area: fast;
     background-image: url(Images/TheTemptations.jpg);
     background-repeat: no-repeat;
-    background-position: -350px 5vw;
-    background-size: cover;
+    background-size:cover;
 }
 #medium {
     grid-area: med;
     background-image: url(Images/luther.jpg);
     background-repeat: no-repeat;
-    background-position: -150px 5vw;
+    background-position: -150px;
     background-size: cover;
 }
 #slow {
     grid-area: slow;
     background-image: url(Images/billW.jpg);
     background-repeat: no-repeat;
-    background-position: 0 5vw;
+    background-position: 0;
     background-size: cover;
 }
 #raggae {
     grid-area: raggae;
     background-image: url(Images/raggae.jpg);
     background-repeat: no-repeat;
-    background-position: 0 5vw;
+    background-position: 0;
     background-size: cover;
 }
 #jazz_instramentals {
     grid-area: jazz;
     background-image: url(Images/MilesD.jpg);
     background-repeat: no-repeat;
-    background-position: 0 5vw;
+    background-position: 0;
     background-size: cover;
 }
 #fats_domino_show {
     grid-area: fats;
     background-image: url(Images/FatsD.jpg);
     background-repeat: no-repeat;
-    background-position: 0 5vw;
+    background-position: 0;
     background-size: cover;
 
 }
@@ -47,7 +46,7 @@
     padding: 5vw;
     color: white;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: auto;
     grid-template-areas: 
         "fast med"
@@ -69,7 +68,7 @@
     transition: .5s;
 }
 .songlist_container section h1 {
-    font-size: 3vw;
+    font-size: 30;
     margin-top: 10px;
 }
 
@@ -83,8 +82,9 @@
 }
 
 .songlist_container li {
-    width: 30%;
-    font-size: 20px;
+    max-width: 30%;
+    min-width: 30%;
+    font-size: 16px;
     font-weight:bolder;
     color: #ffffff;    
     font-size: 1.5vw;
@@ -95,4 +95,19 @@
     transition: .5s;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+}
+@media (max-width: 768px) { 
+    .songlist_container { 
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+        "fast" 
+        "med" 
+        "slow" 
+        "raggae" 
+        "jazz" 
+        "fats"; 
+    } 
+    .songlist_container li {
+         width: 100%; 
+    }
 }

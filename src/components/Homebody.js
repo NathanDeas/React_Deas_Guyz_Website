@@ -39,7 +39,6 @@ function Homebody () {
                     ))}
                 </Slider>
             </section>
-            <div id="piano-banner"></div>
             <section className="about-the-band">
                 <h1>About The Band</h1>
                 <p>

@@ -1,16 +1,16 @@
 .Navbar {
     display: flex;
     flex-direction: row;
-    flex-direction: row;
     height: 10vh;
     justify-content: center;
     align-items: center;
-    font-size: 1.5vw;    
+    font-size: 16px;    
     position: fixed;
     z-index: 1000;
     width: 100%;
     background-color: #111111;
     color: white;
+    padding-left: 20px;
 }
 .deas-guyz-logo {
     background-image: url(./Images/DGLogo.png);
