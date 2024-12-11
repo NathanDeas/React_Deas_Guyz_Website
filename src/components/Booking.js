@@ -19,6 +19,7 @@ function Booking() {
           },
           (error) => {
             console.log('FAILED...', error.text);
+            alert("Error! We were unable to process your request at this time. We appreciate your interest and your support!");
           },
         );
     };
@@ -26,7 +27,8 @@ function Booking() {
         <div className='parent_container'>
             <div className='booking_form'>
                 <form ref={form} onSubmit={sendEmail}>
-                <p>We will get back in touch with you as soon as possible.  We appreciate your interest and your support!</p>
+                  <h2>Interested in booking the band?</h2>
+                  <p>Please include the type of function, the date or dates you are interested in and the location of the event.</p>
                     <div id="i_name">
                       <label>Name </label>
                       <input type="text" name="from_name" required/>

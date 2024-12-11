@@ -4,8 +4,9 @@ iframe{
 .calendar {
     margin-top: 20px;
     height: 80vh;
-
+    width: 100%;
 }
+
 .calender_footer {
     width: 100%;
     color: white;
@@ -33,6 +34,24 @@ iframe{
 }
 .club_contacts ul li {
     margin: 10px;
+}
+.cont_loc {
+    text-decoration: underline;
+}
+@media (max-width: 900px) {
+    .calendar {
+        height: 50vh
+    }
+    .calender_footer .res_note
+    {
+        font-size: 16px;
+    }
+    .calender_footer .club_contacts {
+        font-size: 16px;
+    }
+    .calender_footer {
+        gap: 30px;
+    }
 }
 
 

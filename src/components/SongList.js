@@ -4,7 +4,6 @@ import "./SongList.css";
 function SongList() {
     return(
         <div className="parent_container">
-            <h1>Song List</h1>
             <div className="songlist_container">
                 <section id="fast">
                     <h1>Fast</h1>

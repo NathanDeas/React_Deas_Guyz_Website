@@ -15,17 +15,12 @@ function Homebody () {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 5000,
-        pauseOnHover: true,
         };
     return (
-        <div className="parent-div">
-            {/* <button onClick={() => {
-                const but_scroll = document.getElementById('bandDescription');
-                but_scroll?.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }}>About The Band</button> */}
-            <div className="BandPhoto"></div>
+        <div className="parent_container">
+            <div className="BandPhoto">
+            </div>
+            {/* <div id="band_name">DEAS-GUYZ</div> */}
             <section id="bandDescription">
                 <h2>An Entertaining Mix of Motown, R&B, Blues​ & More...</h2>
                 <h2>Perfect for Your Special ​Occasion!</h2>
@@ -50,7 +45,7 @@ function Homebody () {
                     bring many years of prior experience performing professionally in other bands, clubs, colleges, various festivals and hundreds of private functions and wedding receptions.
                 </p>
                 <p>
-                    The band performs most Sunday nights at the Jazz Corner in the Village at Wexford in Hilton Head which is open to the public. They often travel to other locations such as Pawley's Island, Newberry, \
+                    The band performs most Sunday nights at the Jazz Corner in the Village at Wexford in Hilton Head which is open to the public. They often travel to other locations such as Pawley's Island, Newberry,
                     Mount Pleasant and Greenville in South Carolina and have ventured to several hot spots in Georgia as well. Saturdays are generally reserved for private functions including wedding receptions (their specialty), 
                     corporate and Property Owner's parties, festivals and conventions all along the east coast. 
                 </p>
@@ -63,7 +58,7 @@ function Homebody () {
                     Let Deas-Guyz entertain you and your guests with their wide range of musical fare from “oldies” to cutting edge dance beats. Ideal for all ages and perfect for any special occasion!
                 </p>
                 <p>
-                    Please contact Deas-Guyz at DeasGuyz@aol.com or (843)247-2555 for booking information.  Thank you for your consideration and we look forward to being a part of your special day!
+                    Please visit "BOOK THE BAND" for booking information.  Thank you for your consideration and we look forward to being a part of your special day!
                 </p>
             </section>
           </div>

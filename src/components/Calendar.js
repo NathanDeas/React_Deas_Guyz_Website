@@ -18,11 +18,11 @@ function Calendar() {
                 </div>
                 <div className="club_contacts">
                     <ul>
-                        <li>​​Jazz Corner: (843) 842-8620, The Village at Wexford</li>
-                        <li>​​​​Rooftop @ Poseidon: (843) 341-3838, Shelter Cove Towne Centre</li>
-                        <li>Uncorked: (843) 815-5168, 1533 Fording Island RD</li>
-                        <li>​Willie's- (843) 575-3483. 7 Dr. Martin Luther King DR, St. Helena Island, SC</li>
-                        <li>Ruby Lee's (843) 715-2122, 46 Old Wild Horse RD, Hilton Head Island, SC </li>
+                        <li><span className="cont_loc">​Jazz Corner:</span>(843)842-8620, The Village at Wexford</li>
+                        <li><span className="cont_loc">​​​​Rooftop @ Poseidon:</span> (843)341-3838, Shelter Cove Towne Centre</li>
+                        <li><span className="cont_loc">Uncorked:</span>(843)815-5168, 1533 Fording Island RD</li>
+                        <li><span className="cont_loc">​Willie's:</span>(843)575-3483. 7 Dr. Martin Luther King DR, St. Helena Island, SC</li>
+                        <li><span className="cont_loc">Ruby Lee's:</span>(843)715-2122, 46 Old Wild Horse RD, Hilton Head Island, SC </li>
                     </ul>
                 </div>
             </section>
