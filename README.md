@@ -6,4 +6,5 @@ This project was undertaken to showcase my web development skills and to further
 - **React**
 - **HTML** 
 - **CSS**
-- **JavaScript**.
+- **JavaScript**
+- **EmailJS**

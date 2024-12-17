@@ -52,6 +52,7 @@ a:visited {
     width: fit-content;
     justify-content: center;
     opacity: 100%;
+    transition: .5s;
 }
 .d_options ul {
     display: flex;
