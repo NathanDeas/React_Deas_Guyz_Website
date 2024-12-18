@@ -1,11 +1,11 @@
 
-.booking_form {
+.form_area {
     color: white;
     width: 100%;
     justify-content: center;
 }
 
-.booking_form form {
+.form_area form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@
         background-color: white;
     }
 }
-.booking_form label {
+.form_area label {
     font-size: 25px;
     width: 100%;
     text-align: left;
@@ -37,7 +37,7 @@ form div {
     margin-bottom: 10px;
 }
 
-.booking_form input {
+.form_area input {
     height: 16px;
     background-color: #37434d;
     color: white;
@@ -50,7 +50,7 @@ form div {
 #i_mess {
     width: 100%;
 }
-.booking_form textarea {
+.form_area textarea {
     width: 100%;
     max-width: 100%;
     min-width: 100%;
@@ -68,6 +68,6 @@ form div {
     height: 5vh;
     text-align: center;
 }
-.booking_form p {
+.form_area p {
     width: 100%;
 }

@@ -27,7 +27,6 @@ function Header() {
                             <div className="d_options">
                                 <ul>
                                     <li><NavLink to="/mailinglist" activeClassName="active">JOIN OUR MAILING LIST</NavLink></li>
-                                    <li><NavLink to="/guestbook" activeClassName="active">GUESTBOOK</NavLink></li>
                                 </ul>
                             </div>
                         
@@ -56,10 +55,6 @@ function Header() {
                         <li>
                             <NavLink to="/mailinglist" activeClassName="active">JOIN OUR MAILING LIST</NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/guestbook" activeClassName="active">GUESTBOOK</NavLink>
-                        </li>
-
                     </ul>
                 </div>
             </div>
