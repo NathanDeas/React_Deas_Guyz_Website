@@ -75,11 +75,12 @@ a:visited {
     opacity: 100%;
 }
 
-.nav_buttons_full li {
+.nav_buttons_full li, a {
     padding-left: 10px;
     padding-right: 10px;
     background-position: -50%;
     text-decoration: none;
+    color: white;
 }
 .nav_buttons_full li:hover {
     cursor: pointer;
