@@ -20,7 +20,7 @@ function Homebody () {
         <div className="parent_container">
             <div className="BandPhoto">
             </div>
-            {/* <div id="band_name">DEAS-GUYZ</div> */}
+            <div id="band_name">DEAS GUYZ</div>
             <section id="bandDescription">
                 <h2>An Entertaining Mix of Motown, R&B, Blues​ & More...</h2>
                 <h2>Perfect for Your Special ​Occasion!</h2>
